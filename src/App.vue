@@ -9,13 +9,13 @@
 					<img
 						src="/img/beach-work.jpg"
 						alt="Woman workcationing on the beach"
-						class="mt-6 rounded-lg shadow-xl sm:mt-8 sm:h-64 sm:w-full sm:object-cover sm:object-center lg:hidden"
+						class="mt-6 rounded-lg shadow-xl sm:mt-8 sm:h-72 sm:w-full sm:object-cover sm:object-center lg:hidden"
 					/>
 					<h1
 						class="mt-6 text-2xl font-bold text-gray-900 leading-tight sm:mt-8 sm:text-4xl lg:text-3xl xl:text-4xl"
 					>
 						You can work from anywhere.<br class="hidden lg:inline" />
-						<span class="text-indigo-500">Take advantage of it.</span>
+						<span class="text-brand-blue">Take advantage of it.</span>
 					</h1>
 					<p class="mt-2 text-gray-600 sm:mt-4 sm:text-xl">
 						Workcation helps you find work-friendly rentals in beautiful
@@ -23,7 +23,9 @@
 						vacation.
 					</p>
 					<div class="mt-4 sm:mt-6">
-						<a href="#" class="btn btn-indigo shadow-lg sm:text-base"
+						<a
+							href="#"
+							class="btn bg-brand-blue text-white shadow-lg sm:text-base"
 							>Book your escape</a
 						>
 						<a href="#" class="ml-2 btn btn-gray shadow-lg sm:text-base"
