@@ -1,6 +1,14 @@
 <template>
 	<div class="bg-white border rounded-lg overflow-hidden">
-		<img :src="property.imageUrl" :alt="property.imageAlt" />
+		<!-- For IE11 <div
+			class="h-48 bg-cover bg-center"
+			:style="{ backgroundImage: `url('${property.imageUrl}')` }"
+		></div> -->
+		<img
+			:src="property.imageUrl"
+			:alt="property.imageAlt"
+			class="h-48 w-full object-cover"
+		/>
 		<div class="p-6">
 			<div class="flex items-baseline">
 				<span
